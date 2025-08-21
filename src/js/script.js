@@ -14,8 +14,8 @@ try {
     slidesPerView: 1,
     loop: true,
     navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+      nextEl: ".icon-right-open",
+			prevEl: ".icon-left-open",
         },
    breakpoints: {
       1200: {
@@ -24,6 +24,7 @@ try {
       },
       1920: {
         spaceBetween: 35,
+        slidesPerView: 3,
       },
     },
     pagination: {
