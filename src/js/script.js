@@ -1,3 +1,5 @@
+import "/src/sass/style.scss";
+
 import Swiper from "swiper";
 import { Navigation, Pagination } from "swiper/modules";
 
@@ -7,7 +9,6 @@ import "swiper/css/pagination";
 
 import "purecss/build/grids-min.css";
 import "purecss/build/grids-responsive-min.css";
-import "/src/sass/style.scss";
 
 const burger = document.querySelector(".burger"),
   close = document.querySelector(".header__menu-close"),
